@@ -1,6 +1,6 @@
 # Garden App
 
-A garden-focused web app that starts with one core function: search for a
+A garden-focused mobile app that starts with one core function: search for a
 location and look up the current weather there.
 
 The app uses the public Open-Meteo APIs, so no API key is needed for local
@@ -32,13 +32,20 @@ Install dependencies:
 npm install
 ```
 
-Run the local dev server:
+Start the Expo development server:
 
 ```bash
 npm run dev
 ```
 
-Build for production:
+Then open the app with Expo Go or an emulator:
+
+```bash
+npm run ios
+npm run android
+```
+
+Run TypeScript verification:
 
 ```bash
 npm run build
