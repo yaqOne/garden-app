@@ -38,6 +38,11 @@ Run the local dev server:
 npm run dev
 ```
 
+Vite will print both a `Local` and a `Network` URL. Use the `Network` URL, or
+the forwarded/preview URL from your development environment, when opening the
+app from another device. `localhost` only works on the machine running the dev
+server.
+
 Build for production:
 
 ```bash
